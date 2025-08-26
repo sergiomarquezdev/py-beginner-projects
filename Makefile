@@ -32,3 +32,7 @@ run: ## Ejecutar aplicación
 
 dev: ## Ejecutar en modo desarrollo
 	uv run python -m app.main
+
+# Ejecutar proyectos específicos
+dice: ## Ejecutar Dice Rolling Game
+	uv run python -m projects.dice_rolling.main

@@ -24,6 +24,7 @@ dev = [
 
 [project.scripts]
 app = "app.main:main"
+dice_rolling = "projects.dice_rolling.main:main"
 
 [tool.ruff]
 line-length = 100
